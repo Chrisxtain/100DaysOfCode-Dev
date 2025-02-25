@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     function isValidName(name) {
-        const re = /^[A-Za-z\s]{3,}$/; // Only letters and spaces, at least 3 characters
+        const re = /^[A-Za-z\s]{5,}$/; // Only letters and spaces, at least 3 characters
         return re.test(name);
     }
 
@@ -37,7 +37,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     name.addEventListener("input", () => {
         if (!isValidName(name.value)) {
-            showError(name, "Name must be at least 3 characters and contain only letters.");
+            showError(name, "Name must be at least 5 characters and contain only letters.");
         } else {
             showSuccess(name);
         }

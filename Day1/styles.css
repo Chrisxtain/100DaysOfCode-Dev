@@ -58,7 +58,9 @@ input.invalid{
 }
 
 button{
-    width: 100px;
+    display: block;
+    margin: auto;
+    width: 150px;
     padding: 10px;
     background: #8ed4dd;
     color: rgb(10, 10, 10);
