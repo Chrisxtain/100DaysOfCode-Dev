@@ -1,0 +1,79 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #e1eebf;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+    width: 300px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.input-container {
+    display: flex;
+    gap: 10px;
+}
+
+input {
+    flex: 1;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+button {
+    padding: 8px;
+    cursor: pointer;
+    background: #a2ad84;
+    color: rgb(8, 8, 8);
+    border: none;
+    border-radius: 5px; 
+}
+
+button:hover{
+    background: #748349;
+}
+
+input:focus{
+    border-color: rgb(86, 93, 155);
+    background-color: #e6eed7;
+    outline: none;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #eee;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 4px;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: rgb(52, 133, 45);
+}
+
+.delete-btn {
+    background: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 4px;
+}
