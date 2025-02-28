@@ -1,0 +1,65 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    background-color: #d8da9a;
+}
+
+.card-container{
+    width: 50%;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px rgba(248, 14, 14, 0.9);
+}
+
+input, select, button {
+    margin: 8px;
+    padding: 6px;
+    border-radius: 7px;
+}
+
+button {
+   background-color: rgb(216, 178, 178);
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+}
+button:hover{
+    background: rgb(228, 139, 117);
+}
+
+input:focus{
+    background-color: #e7d8d8;
+    border-color: purple;
+    outline: none;
+}
+
+#greetingCard {
+    margin-top: 20px;
+    padding: 15px;
+    font-size: 20px;
+    display: none;
+}
+
+.hidden {
+    display: none;
+}
+
+.light {
+    background-color: rgb(235, 240, 205);
+    color: rgb(236, 106, 191);
+    border-radius: 15px;
+}
+
+.Dark {
+    background-color: rgb(126, 120, 120);
+    color:rgb(12, 12, 12);
+    border-radius: 15px;
+}
+
+.floral {
+    background-color: rgb(173, 231, 231);
+    color: #044deb;
+    border-radius: 15px;
+}

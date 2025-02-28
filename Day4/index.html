@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Greeting Card</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="card-container">
+        <h2>Create Your Greeting Card</h2>
+        <form id="greetingForm">
+            <div>
+            <label for="name">Enter Your Name</label>
+            <input type="text" id="name" required>
+            </div>
+
+            <div>
+            <label for="occasion">Enter Your Occasion</label>
+            <input type="text" id="occasion" required>
+            </div>
+
+            <label for="theme">Choose a Theme</label>
+            <select id="theme">
+                <option value="light">Light</option>
+                <option value="Dark">Dark</option>
+                <option value="floral">Floral</option>
+            </select>
+
+            <button type="submit">Generate Greeting</button>
+        </form>
+
+        <div id="greetingCard" class="hidden">
+            <p id="greetingMessage"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
